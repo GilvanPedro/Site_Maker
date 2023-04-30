@@ -1,16 +1,14 @@
 @media (max-width: 1200px) {
 
     .detalhesbody {
-        background-color: rgb(211, 244, 161);
+        background-color: rgb(192, 214, 255);
         color: black;
-    }
-    
-    body {
-       background-color: #4a279b;
     }
 
     .imagemDetalhes {
         max-width: 75%;
+        margin: auto;
+        display: block;
     }
 
     .fundo-video {
@@ -24,10 +22,6 @@
         gap: 30px;
     }
 
-    .container .mario {
-        max-width: 50%;
-    }
-
     .container .informacoes {
         display: flex;
         align-items: center;
@@ -38,15 +32,11 @@
         color: #000000;
         text-align: center;
     }
-
-    .container .botao-trailer {
-        background-color: #263238;
-    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .detalhesbody {
-        background-color: rgb(17, 20, 20);
+        color: white;
     }
     
     .cabecalho {
@@ -59,32 +49,40 @@
         max-width: 75%;
     }
 
-    .modal .fechar-modal {
-        width: 30px;
-        line-height: 30px;
-    }
-
-    .modal #video {
-        width: 300px;
-        height: 169px;
+    .container .capa {
+        max-width: 75%;
+        margin: auto;
+        display: block;
     }
 
     .imagemDetalhes {
         max-width: 75%;
+        margin: auto;
+        display: block;
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 350px) {
     .detalhesbody {
-        background-color: rgb(17, 20, 20);
+        color:white;
     }
-    
-    .modal #video {
-        width: 250px;
-        height: 140px;
+
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        font-size: 5px;
     }
 
     .imagemDetalhes {
         max-width: 75%;
+        margin: auto;
+        display: block;
     }
 }
